@@ -13,7 +13,7 @@ function App() {
       })
       .catch(() => {
         setMessage(`Error connecting to the backend`);
-      }, []);
+      });
 
   }, []);
 
