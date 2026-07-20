@@ -33,6 +33,8 @@ lib/
 lib64/
 parts/
 sdist/
+static/
+staticfiles/
 var/
 wheels/
 share/python-wheels/

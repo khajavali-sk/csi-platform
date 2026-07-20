@@ -12,9 +12,9 @@ env = environ.Env(
 
 environ.Env.read_env(BASE_DIR / ".env")  # read .env file
 
-isDev = env("DEBUG")
+DEBUG = env("DEBUG")
 
-if isDev:
+if DEBUG:
     from .development import *
 else:
     from .production import *
